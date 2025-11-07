@@ -1,0 +1,15 @@
+{
+  "cuisine": "American",
+  "recipes": [
+    {"name": "Avocado Toast (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 200, "ingredients": ["bread","avocado","salt","pepper","lemon juice"], "instructions": "Toast bread, mash avocado, spread on toast, sprinkle salt, pepper, and lemon juice."},
+    {"name": "Pancakes (Veg)", "course": "Breakfast", "type": "Vegetarian", "healthy": false, "calories": 300, "ingredients": ["flour","milk","egg","sugar","baking powder"], "instructions": "Mix ingredients into batter, cook pancakes on a skillet until golden."},
+    {"name": "Caesar Salad (Veg)", "course": "Lunch", "type": "Vegetarian", "healthy": true, "calories": 250, "ingredients": ["lettuce","croutons","parmesan","dressing"], "instructions": "Mix all ingredients and serve chilled."},
+    {"name": "BLT Sandwich (Non-Veg)", "course": "Lunch", "type": "Non-Vegetarian", "healthy": false, "calories": 350, "ingredients": ["bread","bacon","lettuce","tomato","mayonnaise"], "instructions": "Layer bacon, lettuce, tomato, and mayo between bread slices."},
+    {"name": "Grilled Chicken (Non-Veg)", "course": "Dinner", "type": "Non-Vegetarian", "healthy": true, "calories": 400, "ingredients": ["chicken breast","olive oil","spices"], "instructions": "Marinate chicken, grill until cooked through."},
+    {"name": "Veggie Burger (Veg)", "course": "Dinner", "type": "Vegetarian", "healthy": true, "calories": 320, "ingredients": ["bun","veggie patty","lettuce","tomato","cheese"], "instructions": "Assemble patty and veggies in bun and serve."},
+    {"name": "Trail Mix (Vegan)", "course": "Snack", "type": "Vegan", "healthy": true, "calories": 180, "ingredients": ["nuts","raisins","seeds","dried fruit"], "instructions": "Mix all ingredients together."},
+    {"name": "Chocolate Chip Cookies (Veg)", "course": "Snack", "type": "Vegetarian", "healthy": false, "calories": 220, "ingredients": ["flour","sugar","butter","egg","chocolate chips"], "instructions": "Mix ingredients, shape dough into cookies, bake until golden."},
+    {"name": "Apple Pie (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 350, "ingredients": ["apple","flour","sugar","butter","cinnamon"], "instructions": "Prepare crust, fill with apple mixture, bake until crust is golden."},
+    {"name": "Brownies (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 300, "ingredients": ["flour","sugar","cocoa powder","butter","egg"], "instructions": "Mix ingredients, bake in a pan until firm."}
+  ]
+}

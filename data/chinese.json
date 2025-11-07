@@ -1,0 +1,13 @@
+{
+  "cuisine": "Chinese/Thai",
+  "recipes": [
+    {"name": "Veggie Stir Fry (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 200, "ingredients": ["broccoli","carrot","bell pepper","soy sauce","garlic"], "instructions": "Sauté vegetables with garlic and soy sauce until tender."},
+    {"name": "Congee (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 180, "ingredients": ["rice","water","salt","ginger"], "instructions": "Cook rice with water and ginger until porridge consistency."},
+    {"name": "Kung Pao Chicken (Non-Veg)", "course": "Lunch", "type": "Non-Vegetarian", "healthy": false, "calories": 450, "ingredients": ["chicken","peanuts","bell pepper","soy sauce","chili"], "instructions": "Stir fry chicken and vegetables with sauce and peanuts."},
+    {"name": "Veg Fried Rice (Vegan)", "course": "Lunch", "type": "Vegan", "healthy": true, "calories": 300, "ingredients": ["rice","carrot","peas","soy sauce","spring onion"], "instructions": "Fry rice with vegetables and soy sauce until hot."},
+    {"name": "Pad Thai (Non-Veg)", "course": "Dinner", "type": "Non-Vegetarian", "healthy": false, "calories": 500, "ingredients": ["rice noodles","shrimp","egg","peanuts","bean sprouts"], "instructions": "Cook noodles, stir fry with shrimp, egg, and sauce, top with peanuts."},
+    {"name": "Tofu Green Curry (Vegan)", "course": "Dinner", "type": "Vegan", "healthy": true, "calories": 350, "ingredients": ["tofu","coconut milk","green curry paste","vegetables"], "instructions": "Cook tofu and vegetables in coconut milk and green curry paste."},
+    {"name": "Spring Rolls (Veg)", "course": "Snack", "type": "Vegetarian", "healthy": true, "calories": 150, "ingredients": ["cabbage","carrot","wrapper","soy sauce"], "instructions": "Fill wrappers with vegetables, steam or bake until crispy."},
+    {"name": "Mango Sticky Rice (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 300, "ingredients": ["sticky rice","coconut milk","mango","sugar"], "instructions": "Cook sticky rice, top with coconut milk and sliced mango."}
+  ]
+}

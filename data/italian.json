@@ -1,0 +1,13 @@
+{
+  "cuisine": "Italian",
+  "recipes": [
+    {"name": "Caprese Salad (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 180, "ingredients": ["tomato","basil","olive oil","salt","pepper"], "instructions": "Layer tomato slices with basil, drizzle olive oil, season with salt and pepper."},
+    {"name": "Frittata (Veg)", "course": "Breakfast", "type": "Vegetarian", "healthy": true, "calories": 250, "ingredients": ["egg","spinach","cheese","onion","pepper"], "instructions": "Mix eggs with vegetables and cheese, bake until set."},
+    {"name": "Margherita Pizza (Veg)", "course": "Lunch", "type": "Vegetarian", "healthy": false, "calories": 350, "ingredients": ["pizza dough","tomato sauce","mozzarella","basil"], "instructions": "Top dough with sauce and cheese, bake until crust is golden."},
+    {"name": "Chicken Alfredo Pasta (Non-Veg)", "course": "Lunch", "type": "Non-Vegetarian", "healthy": false, "calories": 500, "ingredients": ["pasta","chicken","cream","parmesan","butter"], "instructions": "Cook pasta, prepare Alfredo sauce with chicken, mix together."},
+    {"name": "Spaghetti Aglio e Olio (Vegan)", "course": "Dinner", "type": "Vegan", "healthy": true, "calories": 300, "ingredients": ["spaghetti","garlic","olive oil","chili flakes","parsley"], "instructions": "Cook pasta, sauté garlic in olive oil, toss pasta with chili flakes and parsley."},
+    {"name": "Eggplant Parmesan (Veg)", "course": "Dinner", "type": "Vegetarian", "healthy": true, "calories": 350, "ingredients": ["eggplant","tomato sauce","mozzarella","breadcrumbs"], "instructions": "Layer fried eggplant with sauce and cheese, bake until golden."},
+    {"name": "Bruschetta (Vegan)", "course": "Snack", "type": "Vegan", "healthy": true, "calories": 150, "ingredients": ["bread","tomato","basil","olive oil"], "instructions": "Toast bread, top with chopped tomato, basil, and olive oil."},
+    {"name": "Tiramisu (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 400, "ingredients": ["mascarpone","coffee","ladyfingers","sugar","cocoa powder"], "instructions": "Layer coffee-soaked ladyfingers with mascarpone mixture, chill before serving."}
+  ]
+}

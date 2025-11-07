@@ -1,0 +1,15 @@
+{
+  "cuisine": "Indian",
+  "recipes": [
+    {"name": "Masala Oats (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 220, "ingredients": ["oats","carrot","peas","onion","spices","water"], "instructions": "Roast oats, sauté vegetables with spices, add water, and cook until thick."},
+    {"name": "Ragi Dosa (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 180, "ingredients": ["ragi flour","rice flour","water","salt"], "instructions": "Mix flours with water to form batter, ferment overnight, cook thin crispy dosas on a pan."},
+    {"name": "Paneer Butter Masala (Veg)", "course": "Lunch", "type": "Vegetarian", "healthy": false, "calories": 420, "ingredients": ["paneer","tomato","cream","butter","onion","spices"], "instructions": "Cook onions and tomatoes with spices, blend into a smooth sauce, add paneer cubes and cream, simmer for 5 minutes."},
+    {"name": "Vegetable Pulao (Veg)", "course": "Lunch", "type": "Vegetarian", "healthy": true, "calories": 300, "ingredients": ["rice","carrot","peas","onion","spices","ghee"], "instructions": "Fry vegetables in ghee with spices, add rice and water, cook until done."},
+    {"name": "Chicken Biryani (Non-Veg)", "course": "Dinner", "type": "Non-Vegetarian", "healthy": false, "calories": 550, "ingredients": ["chicken","basmati rice","onion","yogurt","spices"], "instructions": "Marinate chicken with yogurt and spices, cook rice separately, layer chicken and rice, steam together."},
+    {"name": "Chole (Veg)", "course": "Dinner", "type": "Vegetarian", "healthy": true, "calories": 350, "ingredients": ["chickpeas","tomato","onion","spices"], "instructions": "Cook chickpeas, sauté onion and tomato with spices, mix and simmer."},
+    {"name": "Fruit Chaat (Vegan)", "course": "Snack", "type": "Vegan", "healthy": true, "calories": 150, "ingredients": ["apple","banana","pomegranate","lemon juice","spices"], "instructions": "Chop fruits, sprinkle lemon juice and spices, mix well."},
+    {"name": "Veg Sandwich (Veg)", "course": "Snack", "type": "Vegetarian", "healthy": true, "calories": 220, "ingredients": ["bread","lettuce","tomato","cheese","cucumber"], "instructions": "Layer veggies and cheese between slices of bread and serve."},
+    {"name": "Gulab Jamun (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 300, "ingredients": ["milk powder","flour","ghee","sugar","cardamom"], "instructions": "Make dough, shape into balls, fry, and soak in sugar syrup."},
+    {"name": "Kheer (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 250, "ingredients": ["rice","milk","sugar","cardamom","nuts"], "instructions": "Cook rice in milk, add sugar and cardamom, garnish with nuts."}
+  ]
+}

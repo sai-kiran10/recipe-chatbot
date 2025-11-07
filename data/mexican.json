@@ -1,0 +1,13 @@
+{
+  "cuisine": "Mexican",
+  "recipes": [
+    {"name": "Guacamole (Vegan)", "course": "Breakfast", "type": "Vegan", "healthy": true, "calories": 180, "ingredients": ["avocado","tomato","onion","lime juice","salt"], "instructions": "Mash avocado, mix with chopped vegetables and lime juice."},
+    {"name": "Huevos Rancheros (Non-Veg)", "course": "Breakfast", "type": "Non-Vegetarian", "healthy": false, "calories": 350, "ingredients": ["egg","tortilla","beans","salsa"], "instructions": "Cook eggs, place on tortillas with beans and salsa."},
+    {"name": "Veggie Tacos (Vegan)", "course": "Lunch", "type": "Vegan", "healthy": true, "calories": 250, "ingredients": ["tortilla","bell pepper","onion","corn","spices"], "instructions": "Cook vegetables with spices, fill tortillas, serve."},
+    {"name": "Chicken Quesadilla (Non-Veg)", "course": "Lunch", "type": "Non-Vegetarian", "healthy": false, "calories": 400, "ingredients": ["tortilla","chicken","cheese","onion","pepper"], "instructions": "Cook chicken and vegetables, layer with cheese in tortilla, cook on skillet."},
+    {"name": "Beef Burrito (Non-Veg)", "course": "Dinner", "type": "Non-Vegetarian", "healthy": false, "calories": 500, "ingredients": ["tortilla","beef","rice","beans","cheese"], "instructions": "Cook beef, assemble burrito with rice, beans, and cheese."},
+    {"name": "Veggie Enchiladas (Veg)", "course": "Dinner", "type": "Vegetarian", "healthy": true, "calories": 320, "ingredients": ["tortilla","beans","cheese","tomato sauce"], "instructions": "Roll vegetables in tortillas, top with sauce and cheese, bake."},
+    {"name": "Nachos (Veg)", "course": "Snack", "type": "Vegetarian", "healthy": false, "calories": 250, "ingredients": ["tortilla chips","cheese","beans","salsa"], "instructions": "Layer chips with toppings and bake until cheese melts."},
+    {"name": "Churros (Veg)", "course": "Dessert", "type": "Vegetarian", "healthy": false, "calories": 300, "ingredients": ["flour","sugar","butter","cinnamon","water"], "instructions": "Prepare dough, fry in oil, roll in cinnamon sugar."}
+  ]
+}
