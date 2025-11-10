@@ -70,26 +70,29 @@ if st.session_state.step == 1:
         # GUARDIAN LOGIC: ONLY advance step upon button click
         st.session_state.step = 2
 
-# Step 2: Select Course
+# Step 2: Select Course (no Next button)
 elif st.session_state.step == 2:
-    # Filter recipes by selected cuisine
     cuisine_recipes = [
         r for r in recipes
         if r.get("cuisine", "").strip().lower() == st.session_state.cuisine.strip().lower()
     ]
     courses = sorted(list(set([r["course"].strip() for r in cuisine_recipes])))
 
-    # Temporary variable to hold user selection
-    selected_course = st.selectbox(
+    # Initialize session_state.course if not set
+    if "course" not in st.session_state or st.session_state.course not in courses:
+        st.session_state.course = courses[0]
+
+    # Bind selectbox directly to session_state.course
+    st.session_state.course = st.selectbox(
         "Select a course:",
         courses,
-        key="course_select"
+        index=courses.index(st.session_state.course)
     )
 
-    # Wait for user confirmation before updating session state
-    if st.button("Next"):
-        st.session_state.course = selected_course
+    # Advance to next step automatically when a course is selected
+    if st.session_state.course:
         st.session_state.step = 3
+
 
 # Step 3: Enter Ingredients
 elif st.session_state.step == 3:
